@@ -9,7 +9,7 @@ import Foundation
 
 // MARK: Custom Error
 struct CustomError: LocalizedError {
-    let message: String // msg
+    let message: String // msg // New commit 
     init(_ message: String) {
         self.message = message
     }
